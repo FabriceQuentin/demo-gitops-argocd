@@ -1,0 +1,11 @@
+resources:
+  - ../../base
+
+patches:
+  - path: patch-replicas.yaml
+
+images:
+  - name: ghcr.io/ton-user/demo-web
+    newTag: 1.0.0
+
+namespace: demo-dev
